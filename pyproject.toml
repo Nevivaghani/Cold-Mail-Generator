@@ -1,0 +1,24 @@
+[project]
+name = "new_llama3_project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nevivaghani",email = "nevivaghani793@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "streamlit (>=1.44.1,<2.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "langchain (>=0.3.22,<0.4.0)",
+    "langchain-community (>=0.3.20,<0.4.0)",
+    "langchain-groq (>=0.3.2,<0.4.0)",
+    "beautifulsoup4 (>=4.13.3,<5.0.0)",
+    "lxml (>=5.3.1,<6.0.0)",
+    "html5lib (>=1.1,<2.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
